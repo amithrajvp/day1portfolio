@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+.intro p, span{
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+header {
+    background-color: #6E07F3;
+}
+#logo {
+    width: 50px;
+    
+}
+#menuicon {
+    color: white;
+    
+}
+#profile {
+    width: 12rem;
+    border-radius: 6rem;
+ 
+}
+.header {
+    width: 100%;
+
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.intro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+#intro2 {
+    width: 800px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ 
+
+
+   
+}
+.section2 {
+    display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+
+
+}
+.about-me {
+    height: 15rem;
+    background-color: #6E07F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me p {
+    width: 600px;
+   
+}
+.aboutme {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+#para {
+    line-height: 1.3rem;
+}
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+   
+  }
